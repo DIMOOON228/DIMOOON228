@@ -1,0 +1,10 @@
+print('Угадай число')
+name = input('Введите ваше имя')
+import random
+r = random.randint(1,9)
+number=int(input'Введите число')
+if  r != number:
+	r = random.randit(1,9)
+	number=int(input'Введите число')
+else:
+	print=('Ты выиграл '+""+str(r))
